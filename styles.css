@@ -1,0 +1,33 @@
+body {
+    background: rgb(26, 1, 85);
+    color : white;
+    font-family: "Coming Soon", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+button {
+    background: rgb(49, 39, 196);
+    color: white;
+    font-family: "Coming Soon", cursive
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 80%;
+}
